@@ -54,7 +54,7 @@ The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed. 
    └── requirements.txt
    ```
 
-5. Download pretrained models from our model zoo([GoogleDrive](https://drive.google.com/file/d/1irp5Ozn2qf5DYqRkqJSjttidx6YjZfXP/view?usp=sharing)
+5. Download pretrained models from our model zoo([GoogleDrive](https://drive.google.com/file/d/1irp5Ozn2qf5DYqRkqJSjttidx6YjZfXP/view?usp=sharing))
    ```
    ${POSE_ROOT}
     `-- models
@@ -66,7 +66,7 @@ The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed. 
    ```
    
 ### Data preparation
-**For MPII data**, please download from [MPII Human Pose Dataset](http://human-pose.mpi-inf.mpg.de/). The original annotation files are in matlab format. The authors of HRNet have converted them into json format, you also need to download them from [OneDrive](https://1drv.ms/f/s!AhIXJn_J-blW00SqrairNetmeVu4) or [GoogleDrive](https://drive.google.com/drive/folders/1En_VqmStnsXMdldXA6qpqEyDQulnmS3a?usp=sharing).
+**For MPII data**, please download from [MPII Human Pose Dataset](http://human-pose.mpi-inf.mpg.de/). The original annotation files are in matlab format. The authors of HRNet have converted them into json format, you also need to download them from [GoogleDrive](https://drive.google.com/file/d/1irp5Ozn2qf5DYqRkqJSjttidx6YjZfXP/view?usp=sharing).
 Extract them under {POSE_ROOT}/data, and make them look like this:
 ```
 ${POSE_ROOT}
@@ -83,7 +83,7 @@ ${POSE_ROOT}
             |-- 000003072.jpg
 ```
 
-**For COCO data**, please download from [COCO download](http://cocodataset.org/#download), 2017 Train/Val is needed for COCO keypoints training and validation. Person detection result of COCO val2017 and test-dev2017 are also provided to reproduce our multi-person pose estimation results. Please download from [OneDrive](https://1drv.ms/f/s!AhIXJn_J-blWzzDXoz5BeFl8sWM-) or [GoogleDrive](https://drive.google.com/drive/folders/1fRUDNUDxe9fjqcRZ2bnF_TKMlO0nB_dk?usp=sharing).
+**For COCO data**, please download from [COCO download](http://cocodataset.org/#download), 2017 Train/Val is needed for COCO keypoints training and validation. Person detection result of COCO val2017 and test-dev2017 are also provided to reproduce our multi-person pose estimation results. Please download from [GoogleDrive](https://drive.google.com/file/d/1irp5Ozn2qf5DYqRkqJSjttidx6YjZfXP/view?usp=sharing).
 Download and extract them under {POSE_ROOT}/data, and make them look like this:
 ```
 ${POSE_ROOT}
